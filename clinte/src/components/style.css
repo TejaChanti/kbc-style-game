@@ -1,0 +1,33 @@
+.player-question-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0px solid;
+    background-color: lightblue;
+    margin-top: 20px;
+    font-size: 14px;
+}
+input {
+    height: 30px;
+    width: 300px;
+    border: 0px solid;
+    outline: none;
+    border-radius: 4px;
+    background-color: lightblue;
+}
+
+.player-question-card, li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    list-style-type: none;
+}
